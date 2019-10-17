@@ -8,9 +8,14 @@ The third and fourth approaches use the python library Surprise but with the dat
 
 Included is an API call to help return book titles and names from ISBN numbers and any one-hot encoded data, without which the recommender fails to produce meaningful information. 
 
-KNN and a Sparse Utility matrix returns a RMSE of < 1.11 /n
-Surprise K-Fold Baseline using Normal Predictor returns a RMSE of 1.41 /n
-Surprise K-Fold & SVD returns a RMSE of 1.01 /n
-Surprise K-Fold & SVD with set threshold of 3.5 has an AUC metric of 0.57 /n
-Surprise K-Fold & SVD with user averaged threshold returns an AUC metric of 0.60 /n
-PySpark using ALS returns RMSE of 3.6 /n
+KNN and a Sparse Utility matrix returns a RMSE of < 1.11 
+
+Surprise K-Fold Baseline using Normal Predictor returns a RMSE of 1.41 
+
+Surprise K-Fold & SVD returns a RMSE of 1.01 
+
+Surprise K-Fold & SVD with set threshold of 3.5 has an AUC metric of 0.57 
+
+Surprise K-Fold & SVD with user averaged threshold returns an AUC metric of 0.60 
+
+PySpark using ALS returns RMSE of 3.6 
