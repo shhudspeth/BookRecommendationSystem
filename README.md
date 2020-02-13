@@ -1,6 +1,6 @@
 # Book Recommender
 
-These notebook contain scripts for five different recommender approaches. The first approach uses KNN and an book title API to return top ten recommendations for any given book. 
+These notebooks contain scripts for five different recommender approaches. The first approach uses KNN and an book title API to return top ten recommendations for any given book. 
 
 The second approach is a collaborative filtering technique using a sparse ultility matrix and KNN. And it also returns recommendations for any given book. There also includes an RSME analysis using self-coded functions (versus a library) for train, test splitting, predictions, and RMSE metrics.
 
