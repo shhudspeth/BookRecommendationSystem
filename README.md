@@ -1,8 +1,8 @@
 # Book Recommender
 
-These notebooks contain scripts for five different recommender approaches. The first approach uses KNN and an book title API to return top ten recommendations for any given book. 
+These notebooks contain scripts for five different recommender approaches. The first approach uses KNN and a book title API to return top ten recommendations for any given book. 
 
-The second approach is a collaborative filtering technique using a sparse ultility matrix and KNN. And it also returns recommendations for any given book. There also includes an RSME analysis using self-coded functions (versus a library) for train, test splitting, predictions, and RMSE metrics.
+The second approach is a collaborative filtering technique using a sparse ultility matrix and KNN. And it also returns recommendations for any given book. There also includes an RSME analysis using self-coded functions (versus a library) for training, test splitting, predictions, and RMSE metrics.
 
 The third and fourth approaches use the python library Surprise but with the data from the previous recommendation systems (aka custom data, not what is built in from Surprise). The first recommender using Surprise uses an average threshold rating of 3.5. The second Suprise recommender first averages a unique user's reviews and sets a unique threshold rating for each user-- the recommender then makes recommendations based on that unique threshold (and this approach does in fact improve ROC-AUC).  The fourth recommendation system uses PySpark and the custom data to return a RSME metric. 
 
